@@ -137,7 +137,7 @@ export class News extends Component {
         return (
             <>
                 <h1 className="text-center" style={{ margin: '35px 0px', marginTop: '90px' }}>
-                    NewsMonkey - Top {this.capitalizeFirstLetter(this.props.category)} Headlines
+                    NewsApp - Top {this.capitalizeFirstLetter(this.props.category)} Headlines
                 </h1>
                 
                 <InfiniteScroll
